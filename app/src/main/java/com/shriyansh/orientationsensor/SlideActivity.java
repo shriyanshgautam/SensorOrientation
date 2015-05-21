@@ -253,7 +253,7 @@ public class SlideActivity extends FragmentActivity implements SensorEventListen
             } else { // (1,+Infinity]
                 // This page is way off-screen to the right.
                 view.setAlpha(0);
-
+                Toast.makeText(SlideActivity.this,"msg",Toast.LENGTH_SHORT).show();
             }
         }
     }
